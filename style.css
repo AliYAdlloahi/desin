@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --color-primary: #ff6464;
+  --color-dark: #21243d;
+  --color-weight: #ffffff;
+  --color-blue: #00a8cc;
+  --color-gray: #8695a4;
+  --color-lightblue: #edf7fa;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+img {
+  width: 100%;
+
+  display: block;
+}
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+}
+nav > img {
+  max-width: 30px;
+  margin-left: auto;
+}
+nav {
+  padding: 1em;
+}
+.profilImg {
+  padding-bottom: 2.5em;
+  padding-top: 1.5em;
+}
+.biography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.biography > p {
+  max-width: 85%;
+}
+.intro {
+  font-weight: 700;
+  padding-bottom: 1.5em;
+  color: #21243d;
+}
+p {
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: 400;
+  color: #21243d;
+  padding-inline: 1em;
+}
+.downloadbtn {
+  background-color: var(--color-primary);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: var(--color-weight);
+  width: 40%;
+}
+h2 {
+  text-align: center;
+  color: #21243d;
+  font-weight: 400;
+  height: 20%;
+  padding: 0.5em 0;
+  text-transform: capitalize;
+}
+h4 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  padding: 0.75em;
+  color: #21243d;
+}
+.spans {
+  display: flex;
+  gap: 1em;
+  padding-block: 1em;
+  padding: 0.75em;
+  color: #21243d;
+}
+.hestoryp {
+  padding: 0.75em;
+  text-align: initial;
+}
+h5 {
+  text-align: center;
+  color: #21243d;
+}
+.dashimg {
+  padding: 0.75em;
+  object-fit: cover;
+}
+h6 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #21243d;
+  padding: 0.75em 0.45em;
+}
+
+.chip {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.3em 0.8em;
+  font-weight: 900;
+  color: var(--color-weight);
+  background-color: var(--color-dark);
+  border-radius: 16px;
+  margin-left: 0.5em;
+}
+.dashtext {
+  color: #8695a4;
+  margin-left: 1em;
+}
+.dashp {
+  text-align: initial;
+  padding: 0.75em;
+  color: #21243d;
+}
+.svg {
+  padding-top: 5em;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+.copyright {
+  padding-bottom: 2em;
+}
+.design {
+  background: var(--color-lightblue);
+  padding: 0 0.75em 1em;
+}
+.designHistory {
+  background: var(--color-weight);
+}
+
+@media (min-width: 1100px) {
+  .about {
+    flex-direction: row-reverse;
+  }
+  .biography {
+    justify-content: start;
+    align-items: start;
+    width: 53%;
+  }
+  .biography > p {
+    padding-inline: 0em;
+    text-align: start;
+    padding-bottom: 2em;
+  }
+  h3 {
+    font-size: 50px;
+  }
+  .wraper {
+    display: flex;
+    gap: 2em;
+    padding-inline: 8em;
+  }
+  h2 {
+    text-align: start;
+    padding-left: 5em;
+  }
+  .videocap {
+    display: flex;
+    padding-inline: 8.75em;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  h5 {
+    text-align: start;
+    padding-left: 11em;
+    padding: 8.em;
+  }
+.hr{
+  background: var(--color-gray);
+  width: 75%;
+  margin: auto;
+  height: 3px;
+}
+ 
+}
